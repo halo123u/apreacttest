@@ -87,6 +87,10 @@ class App extends Component {
           </form>
         </div>
 
+        <div className="footer">
+            Footer
+        </div>
+
       </div>
     );
   }

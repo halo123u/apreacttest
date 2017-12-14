@@ -89,9 +89,6 @@ caption{
   letter-spacing: 0.6px;
   font-size: 20px;;
 }
-body{
-  height: 3000px;
-}
 
 .subBanner {
   display: flex;
@@ -221,4 +218,15 @@ body{
   font-weight: 500;
   font-size: 18px;
   padding-left: 20px;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color : #ffffff;
+  background-color: #1e3656;
+  height: 30vh;
 }
