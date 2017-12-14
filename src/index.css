@@ -38,7 +38,7 @@ p {
   background: url('./assets/banner.png');
   background-size: contain;
   background-repeat: no-repeat;
-  height: 90vh;
+  height: 87.9vh;
   display: flex;
   align-items: Center;
   justify-content: center;
@@ -65,14 +65,14 @@ p {
   font-size: 20px;;
 }
 body{
-  height: 1500px;
+  height: 2000px;
 }
 
 .subBanner {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30vh;
+  height: 40vh;
   width: 100%;
 }
 
@@ -81,17 +81,52 @@ body{
   align-items: center;
   justify-content: space-between;
   height: 100%;
-  width: 50%;
+  width: 55%;
 }
+
 .subBanner_left{
   display: flex;
-  height: 35%;
-  align-items: flex-end;
+  height: 40%;
+  align-items: center;
+  padding-top: 3%;
 }
 .textContainer {
   text-align: left;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 50%;
+  height: 37%;
+}
+
+.mainBody {
+  background-color: #f1faef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70vh;
+  box-shadow: 0px  -1px 1px 1px#d8d8d8;
+}
+.bodyContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 90%;
+}
+
+.innerBody {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 42%;
+  height: 70%;
+  padding-bottom: 5%;
+}
+
+.image {
+  height: 200px;
+  width: 200px;
+  margin-top: 10%;
+  box-shadow: 0px 0px 30px #bebbbb;
 }
