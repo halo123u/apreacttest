@@ -8,8 +8,30 @@ h1 {
   font-weight: bold;
   font-size: 50px;
   letter-spacing: 0.6px;
-  color: #ffffff;
+  color: #ffffff
+}
 
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  letter-spacing: 0.4px;
+  color: #e43c4b;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  color: #272727;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  color : #1e3656;
 }
 
 .Banner {
@@ -44,4 +66,32 @@ h1 {
 }
 body{
   height: 1500px;
+}
+
+.subBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 50%;
+}
+.subBanner_left{
+  display: flex;
+  height: 35%;
+  align-items: flex-end;
+}
+.textContainer {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50%;
 }
