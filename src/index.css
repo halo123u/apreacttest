@@ -7,6 +7,7 @@ h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 50px;
+  text-align: center;
   letter-spacing: 0.6px;
   color: #ffffff
 }
@@ -15,8 +16,16 @@ h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 32px;
+  text-align: center;
   letter-spacing: 0.4px;
   color: #e43c4b;
+}
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 0.3px;
+  color: #272727;
 }
 
 h4 {
@@ -26,6 +35,14 @@ h4 {
   letter-spacing: 0.2px;
   color: #272727;
 }
+h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #413d3d
+}
 p {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -33,7 +50,15 @@ p {
   letter-spacing: 0.2px;
   color : #1e3656;
 }
-
+caption{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #7c7c7c;
+  padding-top: 2%;;
+}
 .Banner {
   background: url('./assets/banner.png');
   background-size: contain;
@@ -65,7 +90,7 @@ p {
   font-size: 20px;;
 }
 body{
-  height: 2000px;
+  height: 3000px;
 }
 
 .subBanner {
@@ -129,4 +154,34 @@ body{
   width: 200px;
   margin-top: 10%;
   box-shadow: 0px 0px 30px #bebbbb;
+}
+
+.mainBottom {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px  2px 1px 1px#d8d8d8;
+  
+  
+}
+
+.imageRow {
+  display: flex;
+  width: 85%;
+  align-items: center;
+  justify-content: center;
+}
+
+.singleImg {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.singleImg img {
+  margin-bottom: 5%;
 }
