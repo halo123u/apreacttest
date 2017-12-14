@@ -220,6 +220,16 @@ p {
   padding-left: 20px;
 }
 
+.success{
+  color: #ffffff;
+  background-color: rgb(107, 214, 107);
+}
+.failure{
+  color: #ffffff;
+  background-color: rgb(219, 20, 20);
+}
+
+
 .footer{
   display: flex;
   justify-content: center;
