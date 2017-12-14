@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import img1 from './assets/1.png';
+import img2 from './assets/2.png';
 import './App.css';
 
 class App extends Component {
@@ -22,6 +24,26 @@ class App extends Component {
             <div className="textContainer">
               <h4>We do</h4>
               <p>The quick,brown fox jumps over a lazy dog. <br/>DJs flock by when MTV ax quiz prog.<br/> Junk MTV quiz graced by fox whelps.<br/> Bawds jog, flick quartz, vex nymphs.</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="mainBody">
+          <div className="bodyContainer">
+            <div className="innerBody">
+              <img className="image" src={img1}/>
+              <div className="textContainer">
+                <h4>Regional Cuisine Down Home <br/> Southern Cooking</h4>
+                <p>The quick,brown fox jumps over a lazy dog. <br/>DJs flock by when MTV ax quiz prog.<br/> Junk MTV quiz graced by fox whelps.<br/> Bawds jog, flick quartz, vex nymphs.</p>
+              </div>
+            </div>
+
+            <div className="innerBody">
+              <img className="image" src={img2}/>
+              <div className="textContainer">
+                <h4>Pos Hardware More Options In <br/> Less Space</h4>
+                <p>The quick,brown fox jumps over a lazy dog. <br/>DJs flock by when MTV ax quiz prog.<br/> Junk MTV quiz graced by fox whelps.<br/> Bawds jog, flick quartz, vex nymphs.</p>
+              </div>
             </div>
           </div>
         </div>
