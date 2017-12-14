@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 import img1 from './assets/1.png';
 import img2 from './assets/2.png';
+import img3 from './assets/3.png';
+import img4 from './assets/4.png';
+import img5 from './assets/5.png';
+import img6 from './assets/6.png';
+
 import './App.css';
 
 class App extends Component {
@@ -45,6 +50,32 @@ class App extends Component {
                 <p>The quick,brown fox jumps over a lazy dog. <br/>DJs flock by when MTV ax quiz prog.<br/> Junk MTV quiz graced by fox whelps.<br/> Bawds jog, flick quartz, vex nymphs.</p>
               </div>
             </div>
+          </div>
+        </div>
+
+        <div className="mainBottom"> 
+          <h3>Maul By The Best Way Around The Island</h3>
+          <div className="imageRow">
+              <div className="singleImg">
+                  <img className="image" src={img3}/>
+                  <h5>East Josianefurt</h5>
+                  <caption>085 Daron Via</caption>
+              </div>
+              <div className="singleImg">
+                  <img className="image" src={img4}/>
+                  <h5>South Cristopherport</h5>
+                  <caption>162 Chandler Ville</caption>
+              </div>
+              <div className="singleImg">
+                  <img className="image" src={img5}/>
+                  <h5>Concepcionbury</h5>
+                  <caption>7643 Kylie Burgs</caption>
+              </div>
+              <div className="singleImg">
+                  <img className="image" src={img6}/>
+                  <h5>Reychester</h5>
+                  <caption>5590 Gabe Views Apt. 044</caption>
+              </div>
           </div>
         </div>
 
