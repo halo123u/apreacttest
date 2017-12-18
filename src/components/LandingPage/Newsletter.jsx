@@ -24,6 +24,7 @@ class Newsletter extends Component{
         if(re.test(email)){
             formData.append('email', email);
             axios.post('http://dev3.apppartner.com/Reactors/scripts/add-email.php',formData).then(res => {
+                console.log(res);
                 if(res.status === 200){
                     this.setState({
                         success: true,

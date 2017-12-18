@@ -90,6 +90,11 @@ p {
   font-size: 20px;;
 }
 
+.rightItem {
+  color:  #ffffff;
+  text-decoration: none;
+}
+
 .subBanner {
   display: flex;
   justify-content: center;
@@ -239,4 +244,104 @@ p {
   color : #ffffff;
   background-color: #1e3656;
   height: 30vh;
+}
+
+.login {
+  height: 100vh;
+  background-image: url('./assets/onboarding-bg.png');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginHeader {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.loginText{
+  color: #7c7c7c;
+  font-size: 20px;
+  margin: 15px;
+  cursor: pointer;
+}
+.selected {
+  color: white;
+  text-decoration: underline;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+}
+
+.formInput {
+  height: 40px;
+  width: 24vw;
+  border-radius: 500px;
+  border: 0px solid;
+  opacity: .4;
+  background-color: #6e788a;
+  color: #ffffff;
+  margin: 10px; 
+}
+
+.formInput:focus {
+  outline: 0;
+}
+.username {
+  background: url('./assets/ic-username.png') no-repeat 20px 5px;
+  background-size: 25px;  
+  text-indent: 65px;
+  background-color: #6e788a;
+}
+
+.username::-webkit-input-placeholder {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.password {
+  background: url('./assets/ic-password.png') no-repeat 20px 5px;
+  background-size: 25px;  
+  text-indent: 65px;
+  background-color: #6e788a;
+}
+.password::-webkit-input-placeholder {
+  color: #ffffff;
+  opacity: 1;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+.email {
+  background: url('./assets/ic-email.png') no-repeat 20px 5px;
+  background-size: 25px;  
+  text-indent: 65px;
+  background-color: #6e788a;
+}
+
+.email::-webkit-input-placeholder {
+  color: #ffffff;
+  opacity: 1;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.redButton{
+  height: 40px;
+  width: 24vw;
+  border-radius: 500px;
+  border: 0px solid;
+  background-color: #e43c4b;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 500; 
+  font-family: 'Roboto', sans-serif;
+  margin: 5px;
+  margin-top: 20px; 
+  padding: 2%;
 }
